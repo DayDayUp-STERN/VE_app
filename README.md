@@ -47,3 +47,4 @@ This is what you need to run the AI Video Editor SDK or AR Photo Editor SDK.
 | Audio      | Video      | Images      |
 | ---------- | ---------  | ----------- |
 |.mp3, .aac, .wav, <br>.m4a, .flac, .aiff |.mp4, .mov, .m4v| .bmp, .gif, .heic, <br>.jpeg, .jpg, .png, .tiff# VE_app
+# VE_app
