@@ -43,7 +43,7 @@ class VideoEditorModule {
     
     func createExportConfiguration(destFile: URL) -> ExportConfiguration {
         let watermarkConfiguration = WatermarkConfiguration(
-          watermark: ImageConfiguration(imageName: "Common.Banuba.Watermark"),
+          watermark: ImageConfiguration(imageName: "Common.Koodall.Watermark"),
           size: CGSize(width: 204, height: 52),
           sharedOffset: 20,
           position: .rightBottom)

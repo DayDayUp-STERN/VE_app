@@ -21,7 +21,7 @@ class ViewController: UIViewController, BanubaVideoEditorDelegate, BanubaPhotoEd
   // MARK: - VideoEditorSDK
   private var videoEditorModule: VideoEditorModule?
   
-  // Use “true” if you want users could restore the last video editing session.
+  // Use "true" if you want users could restore the last video editing session.
   private let restoreLastVideoEditingSession: Bool = false
   
   // MARK: - Handle BanubaVideoEditor callbacks
