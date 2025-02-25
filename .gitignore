@@ -1,6 +1,43 @@
-Pods/
-Example/fastlane
-*.mobileprovision
-xcuserdata
+# macOS 系统文件
 .DS_Store
-Example/build/*
+
+# Xcode 相关
+build/
+*.xcworkspace/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+
+# Frameworks 和大文件
+*.framework/
+*.xcframework/
+Pods/
+Carthage/
+Carthage/Build/
+Example/Example/BanubaEffectPlayer.framework/
+
+# Git Large File Storage (LFS) 相关
+*.lfs
+*.psd
+*.tiff
+*.tif
+*.mp4
+*.mov
+*.zip
+*.gz
+*.tar
+*.jar
+*.ipa
+*.apk
+*.app
+
+# Node.js 相关（如果有）
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 缓存 & 日志
+*.log
+*.lock
+*.swp
+
